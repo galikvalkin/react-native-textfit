@@ -64,8 +64,8 @@ TextFit.defaultProps = {
   style:{}
 }
 TextFit.propTypes = {
-  children: React.PropTypes.any.isRequired,
-  style: React.PropTypes.object,
+  children: PropTypes.any.isRequired,
+  style: PropTypes.object,
 }
 
 export default TextFit;
